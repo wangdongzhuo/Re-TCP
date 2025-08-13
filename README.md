@@ -1,7 +1,9 @@
 # PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation
 
-![teaser](assets/teaser_.png)
-
+![teaser](assets/teaser.png)
+![teaser](assets/PWCA.png)
+![teaser](assets/SSRM.png)
+![teaser](assets/last.png)
 > Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline  
 > [Dongzhuo Wang*](https://scholar.google.cz/citations?user=UOwKHNwAAAAJ&hl=zh-CN&scioq=Re-TCP)
 >  - [2025 IEEE Intelligent Vehicles Symposium (IV) Paper](https://ieeexplore.ieee.org/abstract/document/11097569), IEEE IV 2025 
@@ -9,7 +11,7 @@
 This repository contains the code for the paper [PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation](https://ieeexplore.ieee.org/abstract/document/11097569).
 
 
-Re-TCP is a simple unified framework to combine trajectory and control prediction for end-to-end autonomous driving.
+PA-TCP is a simple unified framework to combine trajectory and control prediction for end-to-end autonomous driving.
 
 
 ## Setup
@@ -29,14 +31,14 @@ cd ..
 Clone this repo and build the environment
 
 ```
-git clone https://github.com/OpenPerceptionX/TCP.git
-cd TCP
-conda env create -f environment.yml --name TCP
-conda activate TCP
+git clone https://github.com/wangdongzhuo/Re-TCP.git
+cd PA-TCP
+conda env create -f environment.yml --name PA-TCP
+conda activate PA-TCP
 ```
 
 ```
-export PYTHONPATH=$PYTHONPATH:PATH_TO_TCP
+export PYTHONPATH=$PYTHONPATH:PATH_TO_PA-TCP
 ```
 
 ## Dataset
@@ -84,12 +86,16 @@ sh leaderboard/scripts/run_evaluation.sh
 If you find our repo or our paper useful, please use the following citation:
 
 ```
-@inproceedings{wu2022trajectoryguided,
- title={Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline}, 
- author={Penghao Wu and Xiaosong Jia and Li Chen and Junchi Yan and Hongyang Li and Yu Qiao},
- booktitle={NeurIPS},
- year={2022},
-}
+@INPROCEEDINGS{11097569,
+  author={Wang, Dongzhuo and Li, Yang and Chen, Weisi and Jiang, Xiaolong and Mu, Yao and Li, Dachuan},
+  booktitle={2025 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1725-1731},
+  keywords={Attention mechanisms;Navigation;Zero shot learning;Vehicle driving;Feature extraction;Safety;Parallel architectures;Brakes;Vehicle dynamics;Autonomous vehicles},
+  doi={10.1109/IV64158.2025.11097569}}
 ```
 
 ## License
@@ -103,4 +109,5 @@ Our code is based on several repositories:
 - [CARLA Leaderboard](https://github.com/carla-simulator/leaderboard)
 - [Scenario Runner](https://github.com/carla-simulator/scenario_runner)
 - [TCP](https://github.com/OpenDriveLab/TCP)
+
 
