@@ -1,19 +1,15 @@
-# TCP - Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline
+# PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation
 
 ![teaser](assets/teaser_.png)
 
 > Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline  
-> [Penghao Wu*](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en), [Xiaosong Jia*](https://jiaxiaosong1002.github.io/), [Li Chen*](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en), [Junchi Yan](https://thinklab.sjtu.edu.cn/), [Hongyang Li](https://lihongyang.info/), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)    
->  - [arXiv Paper](https://arxiv.org/abs/2206.08129), NeurIPS 2022
->  - [Blog in Chinese](https://zhuanlan.zhihu.com/p/532665469)
-
+> [Dongzhuo Wang*](https://scholar.google.cz/citations?user=UOwKHNwAAAAJ&hl=zh-CN&scioq=Re-TCP)
+>  - [2025 IEEE Intelligent Vehicles Symposium (IV) Paper](https://ieeexplore.ieee.org/abstract/document/11097569), IEEE IV 2025
 	
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/trajectory-guided-control-prediction-for-end/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=trajectory-guided-control-prediction-for-end)
-
-This repository contains the code for the paper [Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline](https://arxiv.org/abs/2206.08129).
+This repository contains the code for the paper [PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation](https://ieeexplore.ieee.org/abstract/document/11097569).
 
 
-TCP is a simple unified framework to combine trajectory and control prediction for end-to-end autonomous driving.  By time of release in June 17 2022, our method achieves new state-of-the-art on [CARLA AD Leaderboard](https://leaderboard.carla.org/leaderboard/), in which we rank the **first** in terms of the Driving Score and Infraction Penalty using only a single camera as input. 
+Re-TCP is a simple unified framework to combine trajectory and control prediction for end-to-end autonomous driving.
 
 
 ## Setup
@@ -106,4 +102,5 @@ Our code is based on several repositories:
 - [Roach](https://github.com/zhejz/carla-roach)
 - [CARLA Leaderboard](https://github.com/carla-simulator/leaderboard)
 - [Scenario Runner](https://github.com/carla-simulator/scenario_runner)
+- [TCP](https://github.com/OpenDriveLab/TCP)
 
