@@ -4,7 +4,7 @@
 
 > Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline  
 > [Dongzhuo Wang*](https://scholar.google.cz/citations?user=UOwKHNwAAAAJ&hl=zh-CN&scioq=Re-TCP)
->  - [2025 IEEE Intelligent Vehicles Symposium (IV) Paper](https://ieeexplore.ieee.org/abstract/document/11097569), IEEE IV 2025
+>  - [2025 IEEE Intelligent Vehicles Symposium (IV) Paper](https://ieeexplore.ieee.org/abstract/document/11097569), IEEE IV 2025 
 	
 This repository contains the code for the paper [PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation](https://ieeexplore.ieee.org/abstract/document/11097569).
 
